@@ -1,7 +1,7 @@
 function love.draw()
-  font   = love.graphics.newFont("assets/fonts/NovaMono.ttf", 72)
-  width  = love.window.getWidth()
-  height = love.window.getHeight()
+  local font   = love.graphics.newFont("assets/fonts/NovaMono.ttf", 72)
+  local width  = love.window.getWidth()
+  local height = love.window.getHeight()
 
   love.window.setTitle("greeting")
 
