@@ -1,5 +1,5 @@
 function love.draw()
-  font = love.graphics.newFont("assets/fonts/NovaMono.ttf", 96)
+  font = love.graphics.newFont("assets/fonts/NovaMono.ttf", 72)
   love.graphics.setFont(font)
-  love.graphics.print('Hello World!', 400, 300)
+  love.graphics.printf('Hello World!', 0, 200, 800, 'center')
 end
